@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height:100vh;
+    overflow: hidden;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(120deg, #ba5459 48%, #97444c 48%);
+}
+.box{
+    position:absolute;
+    top:10%;
+    left:30%;
+    height:450px;
+    width:360px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    text-align: center;
+}
+.image{
+    position: relative;
+    top:5%;
+    left:28%;
+    height:150px;
+    width:150px;
+}
+img{
+    height:150px;
+    width:150px;
+    border-radius: 50%;
+    border: 2px solid blue;
+}
+.name{
+    padding-top:39px;
+    height:40px;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+}
+.fa-facebook{
+    background: #3B5998;
+    color: white;
+  }
+
+.fa-twitter{
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-linkedin{
+    background: #007bb5;
+    color: white;
+  }
+  .fa-instagram{
+    background: #125688;
+    color: white;
+  }
+.icons a{
+    padding-top:8px;
+    padding-bottom:3px;
+    height:20px;
+    width:30px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+.icons{
+    padding-left:0;
+}
+.email{
+    padding: 10px;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+}
+.address{
+    font-size:18px;
+    line-height: 20px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+}
+.end{
+    height:64px;
+    width:333px;
+    margin:10px;
+}
+button{
+    height:35px;
+    width:100px;
+    background-color: #007bb5;
+    border-radius: 10px;
+    border: none;
+}
+.end button a{
+    text-decoration: none;
+    color: #fff;
+}
